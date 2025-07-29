@@ -37,45 +37,61 @@
 
 ---
 
-## 📌 프로젝트
+## 📌 프로젝트 소개
 
-[**HereDoggy**](https://github.com/lejeongeun/HereDoggy)
-프로젝트 설명 : 유기견 산책 & 입양 연계 플랫폼
-** 담당 역할 ** 
-- 요규사항 명세서, API, 기능 명세서, DB 등 전반 설계 
-#### 경로 저장 시스템 API
-#### 후원 결제 시스템 API
-- 후원 성공/실패 콜백 처리, 테스트 카드를 사용한 후원 시스템 구축
-#### 유기견 매칭 시스템 설계 및 구현 (진행중)
-- MBTI, 설문 조사 기반 Rule-Based 매칭 시스템
-- DJL (Deep Java Library) EfficientNet-B0 기반 이미지 임베딩 추출 (고도화 진행중)
-#### 위치 기반 산책 경로 기록 기능 개발
-- GPS 데이터를 Redis에 기록 및 시각화 로직 설계
-#### 이미지 업로드 및 저장 경로 관리 최적화
-- UUID 기반 파일명 처리 및 정적 리소스 매핑 설정
-#### Rest API 개발
-- 산책 및 체험 전반 CRUD
-- 입양 전반 CRUD
+<details>
+<summary><strong>🚶‍♂️ HereDoggy – 유기견 산책 & 입양 연계 플랫폼</strong></summary>
 
-[**WhereGo**](https://github.com/lejeongeun/whereGo)
-프로젝트 설명 : 여행 일정 관리 및 커뮤니티 서비스
-## 담당 역할
-#### 여행지 등록 / 수정 / 삭제 API
-#### 여행지 리스트 조회 및 검색 API
-#### 커뮤니티 게시판 (글 작성/수정/삭제/사진 업로드) API 
-#### 댓글 및 좋아요 기능
-#### 체크리스트 관리
-#### 지도 기반 여행지 위치 확인 (Google Maps API/Place API)
-- Google Map API 연동 및 위경도 데이터를 통해 위치 저장
+🔗 [GitHub 링크 바로가기](https://github.com/lejeongeun/HereDoggy)
 
+**담당 역할**
 
-[**Trandit**]
-프로젝트 설명 : 트렌드를 운송하는 화물 운송 매칭 플랫폼
-## 담당 역할
-#### JWT + Redis 기반 로그인 구현
-#### SMTP 연동으로 메일 인증 비밀번호 재설정 구현
-#### OAuth를 통한 소셜 로그인 구현
-#### 회원 정보 및 화물주 가격 제안 API 구현
+- 기획 및 전반 구조 설계 (요구사항 명세서, API, DB 설계 등)
+- **경로 저장 시스템 API**
+- **후원 결제 시스템 API**
+  - 후원 성공/실패 콜백 처리, 테스트 카드로 연동
+- **유기견 추천 매칭 시스템** *(진행 중)*
+  - 설문 + MBTI 기반 Rule-Based Matching
+  - DJL 기반 이미지 임베딩 추출 기능 고도화
+- **산책 경로 기록 기능**
+  - GPS → Redis 기록 → 지도 시각화
+- **이미지 업로드 최적화**
+  - UUID 기반 저장, 정적 리소스 매핑
+- **REST API**
+  - 산책 예약, 입양 등 전체 기능 CRUD
+
+</details>
+
+<details>
+<summary><strong>🌍 WhereGo – 여행 일정 관리 및 커뮤니티 플랫폼</strong></summary>
+
+🔗 [GitHub 링크 바로가기](https://github.com/lejeongeun/whereGo)
+
+**담당 역할**
+
+- 여행지 등록 / 수정 / 삭제 API
+- 여행지 리스트 및 검색 기능
+- 커뮤니티 게시판 (게시글 + 이미지 업로드)
+- 댓글 및 좋아요 기능
+- 체크리스트 관리
+- Google Maps API 기반 위치 저장/조회
+
+</details>
+
+<details>
+<summary><strong>🚚 Trandit – 화물 운송 매칭 플랫폼</strong></summary>
+
+🔗 (GitHub 저장소 준비 중)
+
+**담당 역할**
+
+- JWT + Redis 기반 로그인
+- 이메일 인증 및 비밀번호 재설정 (SMTP 연동)
+- OAuth 소셜 로그인 (Google, Naver 등)
+- 회원/화물주 API 구현
+- 가격 제안 로직 설계 및 구현
+
+</details>
 
 👉 [📁 프로젝트 더 보러가기](https://github.com/lejeongeun?tab=repositories)
 
